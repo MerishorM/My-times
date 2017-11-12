@@ -1,23 +1,21 @@
-.container{
-  display: flex;
-}
 
  .logo{
-  display: block;
+   display:flex;
+   align-items: center;
+   color: MediumAquamarine;
 }
 
-.title h1{
-  color: MediumAquamarine;
+div span{
+  display: inline-block;
+}
+
+a{
+  color: black;
+}
+
+header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
-  display: inline-flex;
-  justify content: front-end;
-}
-
-.navigation{
-  display: flex-end;
-  font-family: Verdana;
-  font-size: 14px;
-  font-weight: bold;
+  display: flex;
 }
