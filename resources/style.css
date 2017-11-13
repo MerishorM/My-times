@@ -1,16 +1,19 @@
 
  .logo{
-   display:flex;
+   display: inline-block;
    align-items: center;
    color: MediumAquamarine;
+   font-family: Verdana;
+   font-size: 14px;
+   font-weight: bold;
 }
 
-div span{
+.nav{
   display: inline-block;
 }
-
-a{
-  color: black;
+.container{
+  display: flex;
+  align-items: center;
 }
 
 header{
@@ -18,4 +21,3 @@ header{
   font-size: 14px;
   font-weight: bold;
   display: flex;
-}
