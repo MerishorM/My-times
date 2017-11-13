@@ -39,6 +39,16 @@
    border: 1px solid black;
 }
 
+.column {
+display: flex;
+flex-direction: column;
+}
+
+
 div {
    border: 1px solid black;
 }
+
+.content {
+  display:flex;
+  }
