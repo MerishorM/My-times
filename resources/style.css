@@ -10,14 +10,15 @@
 
 .nav{
   display: inline-block;
-}
-.container{
-  display: flex;
-  align-items: center;
-}
-
-header{
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+
+.container{
   display: flex;
+  align-items: center;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
