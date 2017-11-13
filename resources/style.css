@@ -1,6 +1,7 @@
 
  .logo{
-   display: inline-block;
+   display: flex;
+   flex-grow: 1;
    align-items: center;
    color: MediumAquamarine;
    font-family: Verdana;
@@ -21,4 +22,19 @@
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
+}
+
+.column.large {
+  width: 630px;
+  border: 1px solid black;
+}
+
+.column.medium {
+  width: 300px;
+  border: 1px solid black;
+}
+
+.column.small {
+  width: 240px;
+   border: 1px solid black;
 }
