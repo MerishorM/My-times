@@ -37,6 +37,14 @@
 .column.small {
   width: inherit;
    border: 1px solid black;
+   flex-direction: column;
+   align-items:flex-start;
+   display:flex;
+}
+
+.img{
+  align-items:flex-start;
+  flex-direction: row;
 }
 
 .column {
@@ -52,3 +60,10 @@ div {
 .content {
   display:flex;
   }
+
+.second-content{
+  display:flex;
+  flex-direction: column;
+  width: 630px;
+  border: 1px solid black;
+}
