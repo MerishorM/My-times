@@ -27,19 +27,22 @@
 .column.large {
   width: 630px;
   border: 1px solid black;
+  justify-content: space-between;
 }
 
 .column.medium {
   width: inherit;
   border: 1px solid black;
+  justify-content: space-between;
 }
 
 .column.small {
   width: inherit;
    border: 1px solid black;
-   flex-direction: column;
+   flex-direction: row;
    align-items:flex-start;
    display:flex;
+   justify-content: space-between;
 }
 
 .img{
