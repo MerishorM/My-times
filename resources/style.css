@@ -30,12 +30,12 @@
 }
 
 .column.medium {
-  width: 300px;
+  width: inherit;
   border: 1px solid black;
 }
 
 .column.small {
-  width: 240px;
+  width: inherit;
    border: 1px solid black;
 }
 
