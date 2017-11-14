@@ -31,20 +31,16 @@
 }
 
 .column.medium {
-  width: inherit;
   border: 1px solid black;
   justify-content: space-between;
   width: 300px;
 }
 
 .column.small {
-  width: inherit;
    border: 1px solid black;
-   flex-direction: row;
-   align-items:flex-start;
    display:flex;
-   justify-content: space-between;
    width: 240px;
+   display:block;
 }
 
 .img{
@@ -55,6 +51,21 @@
 .column {
 display: flex;
 flex-direction: column;
+}
+
+
+.image{
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-main.png");
+
+}
+
+
+.image-content p{
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  text-align: left;
 }
 
 
