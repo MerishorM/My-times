@@ -147,9 +147,10 @@ body{
 .forth-paragraph,
 .image3{
   display: block;
-
 }
 
-.second-paragraph,.third-paragraph{
-  align-items: flex-start;
+.image2{
+  display:flex;
+  flex direction:column;
+  justify content:center;
 }
