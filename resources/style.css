@@ -43,7 +43,7 @@
    display:block;
 }
 
-.img{
+img{
   align-items:flex-start;
   flex-direction: row;
 }
@@ -82,4 +82,12 @@ div {
   flex-direction: column;
   width: 630px;
   border: 1px solid black;
+}
+div{
+  display:block;
+}
+
+.cookie-contaier{
+  display:flex;
+  flex-direction: column;
 }
