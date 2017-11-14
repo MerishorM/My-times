@@ -92,3 +92,14 @@ div{
   display:flex;
   flex-direction: column;
 }
+
+
+.column-small img {
+  height: 240px;
+  border: 1px solid black;
+}
+
+.bite{
+  display:block;
+  color:red;
+}
