@@ -18,7 +18,7 @@
 }
 
 .header.logo{
-  display:inline=flex;
+  display:inline-flex;
 }
 
 .header a{
@@ -247,5 +247,19 @@ footer{
 }
 
 .footer nav{
+  display:inline-block;
+}
+
+.title{
+color:white;
+display: inline-block;
+    padding-right: 25px;
+    font-family: Georgia;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+nav{
   display:inline-block;
 }
