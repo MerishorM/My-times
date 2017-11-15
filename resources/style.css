@@ -248,3 +248,12 @@ footer{
 .footer nav{
   display:inline-block;
 }
+
+.copyright{
+  height:300px;
+}
+
+.info{
+  flex direction:column;
+  align-content: center;
+}
