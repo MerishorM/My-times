@@ -34,7 +34,6 @@
   font-weight: bold;
   position: fixed;
   justify-content: space-between;
-  align-items: center;
   border-bottom: 1px solid black;
   height: 75px;
   top: 0px;
@@ -125,15 +124,47 @@ div{
 }
 
 .image2{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-2.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
+
+
 
 .image3{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
-}
-.image4{
-  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-3.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+{
 
+.image4{
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-story-1.png");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 300px;
+    margin-top: 15px;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+    text-align: center;
 }
 
 .third-paragraph p{
@@ -183,7 +214,7 @@ body{
     color: DimGray;
   }
 
-.footer{
+footer{
   display:flex;
   background-color: MediumAquamarine;
   margin: auto;
@@ -201,4 +232,18 @@ body{
   font-size: 16px;
   font-weight: bold;
   color: white;
+}
+
+.footer title{
+  display: inline-block;
+  padding-right: 25px;
+  border-right: 2px solid white;
+  font-family: Georgia;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer nav{
+  display:inline-block;
 }
