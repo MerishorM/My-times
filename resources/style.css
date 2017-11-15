@@ -51,6 +51,7 @@
 .column.medium {
   justify-content: space-between;
   width: 300px;
+  padding-left: 10px;
 }
 
 .column.small {
@@ -131,6 +132,7 @@ div{
     font-size: 30px;
     color: white;
     text-align: center;
+    padding-bottom: 10px;
 }
 
 
@@ -140,13 +142,14 @@ div{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height: 300px;
-    margin-top: 15px;
+    height: 310px;
+    margin-top: 30px;
     font-family: Georgia;
     font-weight: bold;
     font-size: 30px;
     color: white;
     text-align: center;
+    
 }
 
 .next-paragraph{
@@ -244,8 +247,8 @@ footer{
 }
 
 .title{
-color:white;
-display: inline-block;
+    color:white;
+    display: inline-block;
     padding-right: 25px;
     font-family: Georgia;
     font-size: 16px;
